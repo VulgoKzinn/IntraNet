@@ -1,0 +1,42 @@
+#comu {
+  display: grid;
+  grid-template-columns: 1fr; /* uma coluna, cada item em linha */
+  gap: 12px; /* espaço entre os blocos */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* espaço entre ícone e texto */
+}
+
+.info a {
+  text-decoration: none; /* remove sublinhado */
+  color: #333; /* cor do texto */
+}
+
+#mapasite {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#mapasite #link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#mapasite a {
+    margin: 15px 0;
+    color: #000;
+}
+
+#cop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffa917;
+    color: #FFF;
+    font-weight: bold;
+}
